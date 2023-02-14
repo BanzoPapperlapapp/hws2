@@ -6,8 +6,10 @@
 }
 
 .hw {
-    padding: 34px 70px 0 70px;
+    padding: 34px 70px 32px 70px;
     min-width: 100%;
+    min-height: 300px;
+    border-bottom: 1px solid gray;
 }
 
 .hwTitle {
