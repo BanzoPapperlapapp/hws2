@@ -52,4 +52,5 @@
     flex-flow: column wrap;
     gap: 17px;
     max-width: 450px;
+    max-height: 104px;
 }
