@@ -49,7 +49,7 @@
 
 .affairs {
     display: flex;
+    flex-flow: column wrap;
     gap: 17px;
-    flex-wrap: wrap;
     max-width: 450px;
 }
