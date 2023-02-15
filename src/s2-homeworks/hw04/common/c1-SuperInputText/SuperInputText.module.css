@@ -2,18 +2,37 @@
 }
 
 .input {
+    min-width: 372px;
+    min-height: 32px;
+    outline: none;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #CC1439;
+}
+.inputWrapper span{
+    display: inline-block;
+    height: 12px;
 }
 
 .superInput {
 }
 
 .errorInput {
+    border: 1px solid #cc0000;
 }
 
 .errorInput:focus {
+
 }
 
 .error {
