@@ -2,6 +2,17 @@
 }
 
 .header {
+
+
+    min-height: 60px;
+
+    background: #FFFFFF;
+    box-shadow: 0 0 40px rgba(29, 33, 38, 0.13), 0 0 2px rgba(29, 33, 38, 0.1);
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .header h1 {

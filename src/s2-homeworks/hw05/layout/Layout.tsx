@@ -1,9 +1,10 @@
 import React, { FC, ReactNode, useEffect, useState } from 'react'
 import { Header } from '../header/Header'
 import { Sidebar } from '../sidebar/Sidebar'
+import {Outlet} from "react-router-dom";
 
 type PropsType = {
-    children: ReactNode
+    children?: ReactNode
 }
 
 export const Layout: FC<PropsType> = ({ children }) => {
@@ -22,7 +23,8 @@ export const Layout: FC<PropsType> = ({ children }) => {
             <Header handleOpen={handleOpen} />
             <div>
                 {/*страницы*/}
-                {children}
+                <Outlet/>
+                {/*{children}*/}
             </div>
         </>
     )
